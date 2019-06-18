@@ -1,0 +1,13 @@
+{application, httpsrv,
+ [{description, "HTTP Server for local files"},
+  {vsn, git},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy]},
+  {env,[]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
